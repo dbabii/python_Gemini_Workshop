@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonGemini.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_list_operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercises_29-xx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_comprehension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrix_multipications.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processing_list_strings.py" afterDir="false" />
-    </list>
+    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +42,7 @@
     "Python.processing_list_strings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "python__Gemini__Workshop",
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
