@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="Chapter 3 - Executing Python - Programs, Algorithms, and Functions">
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_37_max_num.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook/chapter_03/my_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_35_my_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook/chapter_03/my_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_34_my_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook/chapter_03/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbook/chapter_03/new.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,7 @@
     "Python.list_comprehension.executor": "Run",
     "Python.main.executor": "Run",
     "Python.matrix_multipications.executor": "Run",
+    "Python.max_num.executor": "Run",
     "Python.my_script.executor": "Run",
     "Python.new.executor": "Run",
     "Python.processing_list_strings.executor": "Run",
