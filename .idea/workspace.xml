@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="Chapter 3 - Executing Python - Programs, Algorithms, and Functions">
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_37_max_num.py" afterDir="false" />
+    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="name file refactoring">
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/activity_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_39_using_bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_40_linear_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_41_binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_42_defining_and_calling_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_43_def_n_calling_the_func_in_python_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_44_importing_n_calling_from_shell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_45_def_func_w_keyword_arg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_46_def_func_w_positional_n_keywords_arg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_47_using_kwargs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook/chapter_03/my_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_35_my_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook/chapter_03/my_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_34_my_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook/chapter_03/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbook/chapter_03/new.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,17 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.activity_7.executor": "Run",
     "Python.activity_8.executor": "Run",
+    "Python.activity_9.executor": "Run",
     "Python.basic_list_operations.executor": "Run",
+    "Python.ex_39_using_bubble_sort.executor": "Run",
+    "Python.ex_40_linear_search.executor": "Run",
+    "Python.ex_41_binary_search.executor": "Run",
+    "Python.ex_42_defining_and_calling_func.executor": "Run",
+    "Python.ex_43_def_n_calling_the_func_in_python_script.executor": "Run",
+    "Python.ex_44_importing_n_calling_from_shell.executor": "Run",
+    "Python.ex_45_def_func_w_keyword_arg.executor": "Run",
+    "Python.ex_46_def_func_w_positional_n_keywords_arg.executor": "Run",
+    "Python.ex_47_using_kwargs.executor": "Run",
     "Python.excercises_29-xx.executor": "Run",
     "Python.list_comprehension.executor": "Run",
     "Python.main.executor": "Run",
@@ -133,11 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1749118704270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="name file refactoring">
+      <option name="closed" value="true" />
+      <created>1749122543324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749122543324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 3 - Executing Python - Programs, Algorithms, and Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 - Executing Python - Programs, Algorithms, and Functions" />
+    <MESSAGE value="name file refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="name file refactoring" />
   </component>
 </project>
