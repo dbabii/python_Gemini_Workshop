@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="" />
+    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/activity_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/today.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonGemini.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonGemini.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,15 +45,20 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.activity_7.executor": "Run",
+    "Python.activity_8.executor": "Run",
     "Python.basic_list_operations.executor": "Run",
     "Python.excercises_29-xx.executor": "Run",
     "Python.list_comprehension.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.matrix_multipications.executor": "Run",
+    "Python.my_script.executor": "Run",
+    "Python.new.executor": "Run",
     "Python.processing_list_strings.executor": "Run",
+    "Python.today.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "python__Gemini__Workshop",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -93,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.processing_list_strings" />
         <item itemvalue="Python.list_comprehension" />
+        <item itemvalue="Python.processing_list_strings" />
       </list>
     </recent_temporary>
   </component>
@@ -114,16 +129,5 @@
       <updated>1745682915205</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
