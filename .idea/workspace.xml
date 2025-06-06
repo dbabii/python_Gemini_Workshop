@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="name file refactoring">
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/activity_9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_39_using_bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_40_linear_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_41_binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_42_defining_and_calling_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_43_def_n_calling_the_func_in_python_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_44_importing_n_calling_from_shell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_45_def_func_w_keyword_arg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_46_def_func_w_positional_n_keywords_arg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_47_using_kwargs.py" afterDir="false" />
+    <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="completed activity 9">
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/activity_10_fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/activity_11_fibonacci_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_48_simple_func_w_for_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_49_exiting_func_during_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_50_recursive_countdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/ex_51_factorials_w_iteration_n_recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_03/fibonacci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.activity_10_fibonacci.executor": "Run",
+    "Python.activity_11_fibonacci_recursive.executor": "Run",
     "Python.activity_7.executor": "Run",
     "Python.activity_8.executor": "Run",
     "Python.activity_9.executor": "Run",
@@ -59,7 +58,12 @@
     "Python.ex_45_def_func_w_keyword_arg.executor": "Run",
     "Python.ex_46_def_func_w_positional_n_keywords_arg.executor": "Run",
     "Python.ex_47_using_kwargs.executor": "Run",
+    "Python.ex_48_simple_func_w_for_loop.executor": "Run",
+    "Python.ex_49_exiting_func_during_loop.executor": "Run",
+    "Python.ex_50_recursive_countdown.executor": "Run",
+    "Python.ex_51_factorials_w_iteration_n_recursion.executor": "Run",
     "Python.excercises_29-xx.executor": "Run",
+    "Python.fibonacci.executor": "Run",
     "Python.list_comprehension.executor": "Run",
     "Python.main.executor": "Run",
     "Python.matrix_multipications.executor": "Run",
@@ -157,12 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1749122543324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed activity 9">
+      <option name="closed" value="true" />
+      <created>1749126980784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749126980784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 3 - Executing Python - Programs, Algorithms, and Functions" />
     <MESSAGE value="name file refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="name file refactoring" />
+    <MESSAGE value="completed activity 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed activity 9" />
   </component>
 </project>
