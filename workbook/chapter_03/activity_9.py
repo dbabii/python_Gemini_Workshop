@@ -6,4 +6,4 @@ def format_customer(name, surname, location=None):
         return f'{full_name}'
 
 print(format_customer('John', 'Smith', location="California"))
-print(format_customer('Maria', 'Shmidt'))
+print(format_customer('Maria', 'Schmidt'))
