@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09641c4e-71de-489b-9482-05c0c24f2a08" name="Changes" comment="ex 55-57 is done">
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_04/ex_58_reading_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook/chapter_04/ex_59_reading_partial_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_04/ex_60_creating_n_writing_content2files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook/chapter_04/ex_61_incorrect_parameters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,8 @@
     "Python.ex_57_filter_lambda.executor": "Run",
     "Python.ex_58_reading_content.executor": "Run",
     "Python.ex_59_reading_partial_content.executor": "Run",
+    "Python.ex_60_creating_n_writing_content2files.executor": "Run",
+    "Python.ex_61_incorrect_parameters.executor": "Run",
     "Python.excercises_29-xx.executor": "Run",
     "Python.fibonacci.executor": "Run",
     "Python.list_comprehension.executor": "Run",
