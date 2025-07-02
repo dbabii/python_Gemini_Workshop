@@ -9,7 +9,12 @@ class Country:
         return self.size_kmsq * conversion_rate ** 2
 # added string method
     def __str__(self):
-        return self.name
+        label = self.name
+        if self.population:
+            label = '%s, population: %s' % (label, self.population) # use 'printf' style
+        if self.size_kmsq:
+            label = f'{label}, size_kmsq: {self.size_kmsq}' # use f-string style
+        return label
 
 usa = Country(name='United States of America', size_kmsq=9.8e6) # e6 = 10^6
 print(usa.__dict__)
@@ -20,5 +25,9 @@ print(algeria.size_miles_sq())
 print(algeria.size_miles_sq(conversion_rate=0.6))
 print(algeria.size_miles_sq()) # the default parameter remains unchanged
 
-chad = Country(name='Chad')
+## string method with two parameters
+# chad = Country(name='Chad', size_kmsq=1.284e6)
+# chad = Country(name='Chad', population=19.32e6)
+## string method with all parameters
+chad = Country(name='Chad', population=19.32e6, size_kmsq=1.284e6)
 print(chad)
