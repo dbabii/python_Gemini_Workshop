@@ -1,8 +1,15 @@
+import random
+
 class Pet: # define a Pet class
     """
     A class to capture useful information regarding my pets, just incase
     I lose track of them
     """
+
+# attributes of the class
+    is_human = False
+    owner = "Michael Smith"
+
 # add additional parameter name
     def __init__(self, height, name=None):
         self.height = height
@@ -12,10 +19,7 @@ class Pet: # define a Pet class
     def __str__(self):
         return '%s, height: %s cm' % (self.name, self.height)
 
-    # attributes of the class
-    is_human = False
-    owner = "Michael Smith"
-    # add additional instance 'is_tall' method
+# add additional instance 'is_tall' method
     def is_tall(self, tall_if_at_least):
         return self.height >= tall_if_at_least
 
@@ -24,6 +28,10 @@ class Pet: # define a Pet class
     def owned_by_smith_family():
         return 'Smith' in Pet.owner
 
+    @classmethod
+    def create_random_heigh_pet(cls):
+        height = random.randrange(1, 100)
+        return cls(height)
 
 # create an object of class
 chubbles = Pet(height=5)
@@ -53,3 +61,8 @@ print(my_other_pet)
 # test static method
 nibbles = Pet(100)
 print(nibbles.owned_by_smith_family())
+
+# test @classmethod random assignee height
+for i in range(5):
+    pet = Pet.create_random_heigh_pet()
+    print(pet.height)
