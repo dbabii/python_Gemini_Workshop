@@ -16,10 +16,12 @@ class Adult(Person):
 class Calendar():
     def book_appointment(self, date):
         print('Booking appointment for date %s' % date)
-# defying classes without adding or customizing its methods/attrs
+# override book_appointment
 class OrganizedBaby(Baby, Calendar):
-    pass
-
+    def book_appointment(self, date):
+        print('Note: you are booking an appointment with a baby')
+        super().book_appointment(date)
+# defying a class without adding or customizing its methods/attrs
 class OrganizedAdult(Adult, Calendar):
     pass
 
