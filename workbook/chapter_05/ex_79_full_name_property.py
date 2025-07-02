@@ -24,3 +24,17 @@ customer.full_name = 'Mary Schmidt'
 print(customer)
 print(customer.full_name)
 print(customer.second_name)
+
+class Baby(Person):
+    def speak(self):
+        print('Blah blah blah')
+
+class Adult(Person):
+    def speak(self):
+        print('Hello, my name is %s' % self.first_name)
+
+jess = Baby('Jessie', 'McDonald')
+tom = Adult('Thomas', 'Smith')
+
+jess.speak()
+tom.speak()
