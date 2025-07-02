@@ -8,6 +8,9 @@ class Pet: # define a Pet class
         self.height = height
         self.name = name
 
+# add additional special instance method
+    def __str__(self):
+        return '%s, height: %s cm' % (self.name, self.height)
 
     # attributes of the class
     is_human = False
@@ -37,3 +40,7 @@ print(bowser.is_tall(70))
 
 my_pet = Pet(30, 'Chis')
 print(my_pet) # return address in memory instead of object's properties
+
+# create another new pet
+my_other_pet = Pet(40, 'Rudolf')
+print(my_other_pet)
