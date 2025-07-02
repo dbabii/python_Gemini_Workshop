@@ -19,6 +19,11 @@ class Pet: # define a Pet class
     def is_tall(self, tall_if_at_least):
         return self.height >= tall_if_at_least
 
+# add static method. it doesn't use 'self'
+    @staticmethod
+    def owned_by_smith_family():
+        return 'Smith' in Pet.owner
+
 
 # create an object of class
 chubbles = Pet(height=5)
@@ -44,3 +49,7 @@ print(my_pet) # return address in memory instead of object's properties
 # create another new pet
 my_other_pet = Pet(40, 'Rudolf')
 print(my_other_pet)
+
+# test static method
+nibbles = Pet(100)
+print(nibbles.owned_by_smith_family())
