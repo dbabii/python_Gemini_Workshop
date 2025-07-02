@@ -38,3 +38,22 @@ tom = Adult('Thomas', 'Smith')
 
 jess.speak()
 tom.speak()
+
+class TwoNamesPerson(Person):
+    @property
+    def full_name(self):
+        return '%s %s' % (self.first_name, self.second_name)
+# overriding full name setter method and add the possibility to have two names
+    @full_name.setter
+    def full_name(self, name):
+        names = name.split(' ')
+        if len(names) > 2:
+            self.first_name = ' '.join(names[:2])
+        elif len(names) == 2:
+            self.first_name = names[0]
+        self.second_name = names[-1]
+
+my_person = TwoNamesPerson('Joanna', 'Smith')
+my_person.full_name = 'Joanna Anne Smith'
+print(my_person.first_name)
+print(my_person.second_name)
