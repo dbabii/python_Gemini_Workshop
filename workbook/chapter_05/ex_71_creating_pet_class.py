@@ -3,8 +3,11 @@ class Pet: # define a Pet class
     A class to capture useful information regarding my pets, just incase
     I lose track of them
     """
-    def __init__(self, height):
+# add additional parameter name
+    def __init__(self, height, name=None):
         self.height = height
+        self.name = name
+
 
     # attributes of the class
     is_human = False
@@ -31,3 +34,6 @@ bowser.height = 60
 # print(bowser.is_tall()) #the instance method return TypeError as missing 1 required arguments
 print(bowser.is_tall(bowser.height))
 print(bowser.is_tall(70))
+
+my_pet = Pet(30, 'Chis')
+print(my_pet) # return address in memory instead of object's properties
